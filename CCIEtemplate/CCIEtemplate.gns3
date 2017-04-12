@@ -1,0 +1,2940 @@
+{
+    "topology": {
+        "images": [
+            {
+                "x": 126.99999999999955,
+                "y": -650.5,
+                "path": "images\\1.JPG"
+            },
+            {
+                "x": 779.9999999999998,
+                "y": -645.5000000000001,
+                "path": "images\\2.JPG"
+            },
+            {
+                "x": -1050.9999999999998,
+                "y": 16.999999999999957,
+                "path": "images\\3.JPG"
+            }
+        ],
+        "nodes": [
+            {
+                "x": -279.480230740355,
+                "label": {
+                    "x": 17.5,
+                    "color": "#ff000000",
+                    "y": -25.0,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "R1"
+                },
+                "y": -563.6223663640864,
+                "type": "IOUDevice",
+                "ports": [
+                    {
+                        "description": "connected to SW1 on port Ethernet0/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 23,
+                        "name": "Ethernet0/0",
+                        "port_number": 0,
+                        "id": 157,
+                        "adapter_number": 0
+                    },
+                    {
+                        "description": "connected to SW2 on port Ethernet0/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 33,
+                        "name": "Ethernet0/1",
+                        "port_number": 1,
+                        "id": 158,
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 159,
+                        "name": "Ethernet0/2",
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 160,
+                        "name": "Ethernet0/3",
+                        "adapter_number": 0
+                    },
+                    {
+                        "description": "connected to R2 on port Serial1/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 65,
+                        "name": "Serial1/0",
+                        "port_number": 0,
+                        "id": 161,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R3 on port Serial1/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 66,
+                        "name": "Serial1/1",
+                        "port_number": 1,
+                        "id": 162,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R4 on port Serial1/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 67,
+                        "name": "Serial1/2",
+                        "port_number": 2,
+                        "id": 163,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R5 on port Serial1/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 68,
+                        "name": "Serial1/3",
+                        "port_number": 3,
+                        "id": 164,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R6 on port Serial1/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 69,
+                        "name": "Serial2/0",
+                        "port_number": 0,
+                        "id": 165,
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 166,
+                        "name": "Serial2/1",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 167,
+                        "name": "Serial2/2",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 168,
+                        "name": "Serial2/3",
+                        "adapter_number": 2
+                    }
+                ],
+                "id": 7,
+                "server_id": 1,
+                "symbol": ":/symbols/router.svg",
+                "vm_id": "fbe32560-7ca7-4fee-ba64-d8e20198b46d",
+                "properties": {
+                    "startup_config": "startup-config.cfg",
+                    "ethernet_adapters": 1,
+                    "ram": 384,
+                    "use_default_iou_values": false,
+                    "console": 5000,
+                    "name": "R1",
+                    "l1_keepalives": false,
+                    "md5sum": "2eabae17778316c49cbc80e8e81262f9",
+                    "nvram": 1024,
+                    "path": "i86bi-linux-l3-adventerprisek9-15.4.1T.bin",
+                    "serial_adapters": 2
+                },
+                "description": "IOU device"
+            },
+            {
+                "x": 29.62027432303313,
+                "label": {
+                    "x": 17.5,
+                    "color": "#ff000000",
+                    "y": -25.0,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "R2"
+                },
+                "y": -479.03657992645924,
+                "type": "IOUDevice",
+                "ports": [
+                    {
+                        "description": "connected to SW1 on port Ethernet0/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 24,
+                        "name": "Ethernet0/0",
+                        "port_number": 0,
+                        "id": 169,
+                        "adapter_number": 0
+                    },
+                    {
+                        "description": "connected to SW2 on port Ethernet0/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 34,
+                        "name": "Ethernet0/1",
+                        "port_number": 1,
+                        "id": 170,
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 171,
+                        "name": "Ethernet0/2",
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 172,
+                        "name": "Ethernet0/3",
+                        "adapter_number": 0
+                    },
+                    {
+                        "description": "connected to R1 on port Serial1/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 65,
+                        "name": "Serial1/0",
+                        "port_number": 0,
+                        "id": 173,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R3 on port Serial1/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 70,
+                        "name": "Serial1/1",
+                        "port_number": 1,
+                        "id": 174,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R4 on port Serial1/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 72,
+                        "name": "Serial1/2",
+                        "port_number": 2,
+                        "id": 175,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R5 on port Serial1/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 73,
+                        "name": "Serial1/3",
+                        "port_number": 3,
+                        "id": 176,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R6 on port Serial1/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 74,
+                        "name": "Serial2/0",
+                        "port_number": 0,
+                        "id": 177,
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 178,
+                        "name": "Serial2/1",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 179,
+                        "name": "Serial2/2",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 180,
+                        "name": "Serial2/3",
+                        "adapter_number": 2
+                    }
+                ],
+                "id": 8,
+                "server_id": 1,
+                "symbol": ":/symbols/router.svg",
+                "vm_id": "f5b085d3-7ec6-4876-b1df-d46cb54e1a25",
+                "properties": {
+                    "startup_config": "startup-config.cfg",
+                    "ethernet_adapters": 1,
+                    "ram": 384,
+                    "use_default_iou_values": false,
+                    "console": 5001,
+                    "name": "R2",
+                    "l1_keepalives": false,
+                    "md5sum": "2eabae17778316c49cbc80e8e81262f9",
+                    "nvram": 1024,
+                    "path": "i86bi-linux-l3-adventerprisek9-15.4.1T.bin",
+                    "serial_adapters": 2
+                },
+                "description": "IOU device"
+            },
+            {
+                "x": -264.0365799264592,
+                "label": {
+                    "x": 17.5,
+                    "color": "#ff000000",
+                    "y": -25.0,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "R3"
+                },
+                "y": -350.622366364086,
+                "type": "IOUDevice",
+                "ports": [
+                    {
+                        "description": "connected to SW1 on port Ethernet0/2",
+                        "nio": "NIO_UDP",
+                        "link_id": 25,
+                        "name": "Ethernet0/0",
+                        "port_number": 0,
+                        "id": 181,
+                        "adapter_number": 0
+                    },
+                    {
+                        "description": "connected to SW2 on port Ethernet0/2",
+                        "nio": "NIO_UDP",
+                        "link_id": 35,
+                        "name": "Ethernet0/1",
+                        "port_number": 1,
+                        "id": 182,
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 183,
+                        "name": "Ethernet0/2",
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 184,
+                        "name": "Ethernet0/3",
+                        "adapter_number": 0
+                    },
+                    {
+                        "description": "connected to R1 on port Serial1/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 66,
+                        "name": "Serial1/0",
+                        "port_number": 0,
+                        "id": 185,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R2 on port Serial1/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 70,
+                        "name": "Serial1/1",
+                        "port_number": 1,
+                        "id": 186,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R4 on port Serial1/2",
+                        "nio": "NIO_UDP",
+                        "link_id": 75,
+                        "name": "Serial1/2",
+                        "port_number": 2,
+                        "id": 187,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R5 on port Serial1/2",
+                        "nio": "NIO_UDP",
+                        "link_id": 76,
+                        "name": "Serial1/3",
+                        "port_number": 3,
+                        "id": 188,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R6 on port Serial1/2",
+                        "nio": "NIO_UDP",
+                        "link_id": 77,
+                        "name": "Serial2/0",
+                        "port_number": 0,
+                        "id": 189,
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 190,
+                        "name": "Serial2/1",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 191,
+                        "name": "Serial2/2",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 192,
+                        "name": "Serial2/3",
+                        "adapter_number": 2
+                    }
+                ],
+                "id": 9,
+                "server_id": 1,
+                "symbol": ":/symbols/router.svg",
+                "vm_id": "1c073f21-2225-4715-afbc-361f050a26f8",
+                "properties": {
+                    "startup_config": "startup-config.cfg",
+                    "ethernet_adapters": 1,
+                    "ram": 384,
+                    "use_default_iou_values": false,
+                    "console": 5002,
+                    "name": "R3",
+                    "l1_keepalives": false,
+                    "md5sum": "2eabae17778316c49cbc80e8e81262f9",
+                    "nvram": 1024,
+                    "path": "i86bi-linux-l3-adventerprisek9-15.4.1T.bin",
+                    "serial_adapters": 2
+                },
+                "description": "IOU device"
+            },
+            {
+                "x": 34.64971157455602,
+                "label": {
+                    "x": 17.5,
+                    "color": "#ff000000",
+                    "y": -25.0,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "R4"
+                },
+                "y": -272.86500705120545,
+                "type": "IOUDevice",
+                "ports": [
+                    {
+                        "description": "connected to SW1 on port Ethernet0/3",
+                        "nio": "NIO_UDP",
+                        "link_id": 26,
+                        "name": "Ethernet0/0",
+                        "port_number": 0,
+                        "id": 193,
+                        "adapter_number": 0
+                    },
+                    {
+                        "description": "connected to SW2 on port Ethernet0/3",
+                        "nio": "NIO_UDP",
+                        "link_id": 36,
+                        "name": "Ethernet0/1",
+                        "port_number": 1,
+                        "id": 194,
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 195,
+                        "name": "Ethernet0/2",
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 196,
+                        "name": "Ethernet0/3",
+                        "adapter_number": 0
+                    },
+                    {
+                        "description": "connected to R1 on port Serial1/2",
+                        "nio": "NIO_UDP",
+                        "link_id": 67,
+                        "name": "Serial1/0",
+                        "port_number": 0,
+                        "id": 197,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R2 on port Serial1/2",
+                        "nio": "NIO_UDP",
+                        "link_id": 72,
+                        "name": "Serial1/1",
+                        "port_number": 1,
+                        "id": 198,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R3 on port Serial1/2",
+                        "nio": "NIO_UDP",
+                        "link_id": 75,
+                        "name": "Serial1/2",
+                        "port_number": 2,
+                        "id": 199,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R5 on port Serial1/3",
+                        "nio": "NIO_UDP",
+                        "link_id": 78,
+                        "name": "Serial1/3",
+                        "port_number": 3,
+                        "id": 200,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R6 on port Serial1/3",
+                        "nio": "NIO_UDP",
+                        "link_id": 79,
+                        "name": "Serial2/0",
+                        "port_number": 0,
+                        "id": 201,
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 202,
+                        "name": "Serial2/1",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 203,
+                        "name": "Serial2/2",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 204,
+                        "name": "Serial2/3",
+                        "adapter_number": 2
+                    }
+                ],
+                "id": 10,
+                "server_id": 1,
+                "symbol": ":/symbols/router.svg",
+                "vm_id": "08464ea7-dc5d-4d87-a178-b562a8c66cfd",
+                "properties": {
+                    "startup_config": "startup-config.cfg",
+                    "ethernet_adapters": 1,
+                    "ram": 384,
+                    "use_default_iou_values": false,
+                    "console": 5003,
+                    "name": "R4",
+                    "l1_keepalives": false,
+                    "md5sum": "2eabae17778316c49cbc80e8e81262f9",
+                    "nvram": 1024,
+                    "path": "i86bi-linux-l3-adventerprisek9-15.4.1T.bin",
+                    "serial_adapters": 2
+                },
+                "description": "IOU device"
+            },
+            {
+                "x": 26.10555569727171,
+                "label": {
+                    "x": 17.5,
+                    "color": "#ff000000",
+                    "y": -25.0,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "R6"
+                },
+                "y": -110.48023074035518,
+                "type": "IOUDevice",
+                "ports": [
+                    {
+                        "description": "connected to SW1 on port Ethernet1/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 28,
+                        "name": "Ethernet0/0",
+                        "port_number": 0,
+                        "id": 217,
+                        "adapter_number": 0
+                    },
+                    {
+                        "description": "connected to SW2 on port Ethernet1/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 38,
+                        "name": "Ethernet0/1",
+                        "port_number": 1,
+                        "id": 218,
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 219,
+                        "name": "Ethernet0/2",
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 220,
+                        "name": "Ethernet0/3",
+                        "adapter_number": 0
+                    },
+                    {
+                        "description": "connected to R1 on port Serial2/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 69,
+                        "name": "Serial1/0",
+                        "port_number": 0,
+                        "id": 221,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R2 on port Serial2/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 74,
+                        "name": "Serial1/1",
+                        "port_number": 1,
+                        "id": 222,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R3 on port Serial2/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 77,
+                        "name": "Serial1/2",
+                        "port_number": 2,
+                        "id": 223,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R4 on port Serial2/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 79,
+                        "name": "Serial1/3",
+                        "port_number": 3,
+                        "id": 224,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R5 on port Serial2/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 80,
+                        "name": "Serial2/0",
+                        "port_number": 0,
+                        "id": 225,
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 226,
+                        "name": "Serial2/1",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 227,
+                        "name": "Serial2/2",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 228,
+                        "name": "Serial2/3",
+                        "adapter_number": 2
+                    }
+                ],
+                "id": 12,
+                "server_id": 1,
+                "symbol": ":/symbols/router.svg",
+                "vm_id": "c0d41121-e060-4789-b0c3-d9e6da53a481",
+                "properties": {
+                    "startup_config": "startup-config.cfg",
+                    "ethernet_adapters": 1,
+                    "ram": 384,
+                    "use_default_iou_values": false,
+                    "console": 5005,
+                    "name": "R6",
+                    "l1_keepalives": false,
+                    "md5sum": "2eabae17778316c49cbc80e8e81262f9",
+                    "nvram": 1024,
+                    "path": "i86bi-linux-l3-adventerprisek9-15.4.1T.bin",
+                    "serial_adapters": 2
+                },
+                "description": "IOU device"
+            },
+            {
+                "x": -226.26197667087519,
+                "label": {
+                    "x": 17.5,
+                    "color": "#ff000000",
+                    "y": -25.0,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "R7"
+                },
+                "y": -9.556349186103944,
+                "type": "IOUDevice",
+                "ports": [
+                    {
+                        "description": "connected to SW1 on port Ethernet1/2",
+                        "nio": "NIO_UDP",
+                        "link_id": 29,
+                        "name": "Ethernet0/0",
+                        "port_number": 0,
+                        "id": 229,
+                        "adapter_number": 0
+                    },
+                    {
+                        "description": "connected to SW2 on port Ethernet1/2",
+                        "nio": "NIO_UDP",
+                        "link_id": 39,
+                        "name": "Ethernet0/1",
+                        "port_number": 1,
+                        "id": 230,
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 231,
+                        "name": "Ethernet0/2",
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 232,
+                        "name": "Ethernet0/3",
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 0,
+                        "id": 233,
+                        "name": "Serial1/0",
+                        "adapter_number": 1
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 234,
+                        "name": "Serial1/1",
+                        "adapter_number": 1
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 235,
+                        "name": "Serial1/2",
+                        "adapter_number": 1
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 236,
+                        "name": "Serial1/3",
+                        "adapter_number": 1
+                    },
+                    {
+                        "port_number": 0,
+                        "id": 237,
+                        "name": "Serial2/0",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 238,
+                        "name": "Serial2/1",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 239,
+                        "name": "Serial2/2",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 240,
+                        "name": "Serial2/3",
+                        "adapter_number": 2
+                    }
+                ],
+                "id": 13,
+                "server_id": 1,
+                "symbol": ":/symbols/router.svg",
+                "vm_id": "1ef01e54-0ef8-4987-9d5d-ed2b1da4e27f",
+                "properties": {
+                    "startup_config": "startup-config.cfg",
+                    "ethernet_adapters": 1,
+                    "ram": 384,
+                    "use_default_iou_values": false,
+                    "console": 5006,
+                    "name": "R7",
+                    "l1_keepalives": false,
+                    "md5sum": "2eabae17778316c49cbc80e8e81262f9",
+                    "nvram": 1024,
+                    "path": "i86bi-linux-l3-adventerprisek9-15.4.1T.bin",
+                    "serial_adapters": 2
+                },
+                "description": "IOU device"
+            },
+            {
+                "x": 37.152236891497694,
+                "label": {
+                    "x": 17.5,
+                    "color": "#ff000000",
+                    "y": -25.0,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "R8"
+                },
+                "y": 48.225396744416116,
+                "type": "IOUDevice",
+                "ports": [
+                    {
+                        "description": "connected to SW1 on port Ethernet1/3",
+                        "nio": "NIO_UDP",
+                        "link_id": 30,
+                        "name": "Ethernet0/0",
+                        "port_number": 0,
+                        "id": 241,
+                        "adapter_number": 0
+                    },
+                    {
+                        "description": "connected to SW3 on port Ethernet1/3",
+                        "nio": "NIO_UDP",
+                        "link_id": 42,
+                        "name": "Ethernet0/1",
+                        "port_number": 1,
+                        "id": 242,
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 243,
+                        "name": "Ethernet0/2",
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 244,
+                        "name": "Ethernet0/3",
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 0,
+                        "id": 245,
+                        "name": "Serial1/0",
+                        "adapter_number": 1
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 246,
+                        "name": "Serial1/1",
+                        "adapter_number": 1
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 247,
+                        "name": "Serial1/2",
+                        "adapter_number": 1
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 248,
+                        "name": "Serial1/3",
+                        "adapter_number": 1
+                    },
+                    {
+                        "port_number": 0,
+                        "id": 249,
+                        "name": "Serial2/0",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 250,
+                        "name": "Serial2/1",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 251,
+                        "name": "Serial2/2",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 252,
+                        "name": "Serial2/3",
+                        "adapter_number": 2
+                    }
+                ],
+                "id": 14,
+                "server_id": 1,
+                "symbol": ":/symbols/router.svg",
+                "vm_id": "8e081ba3-2dbb-4618-b4b0-61a2746899b4",
+                "properties": {
+                    "startup_config": "startup-config.cfg",
+                    "ethernet_adapters": 1,
+                    "ram": 384,
+                    "use_default_iou_values": false,
+                    "console": 5007,
+                    "name": "R8",
+                    "l1_keepalives": false,
+                    "md5sum": "2eabae17778316c49cbc80e8e81262f9",
+                    "nvram": 1024,
+                    "path": "i86bi-linux-l3-adventerprisek9-15.4.1T.bin",
+                    "serial_adapters": 2
+                },
+                "description": "IOU device"
+            },
+            {
+                "x": -225.4335495461291,
+                "label": {
+                    "x": 17.5,
+                    "color": "#ff000000",
+                    "y": -25.0,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "R9"
+                },
+                "y": 121.1787155501903,
+                "type": "IOUDevice",
+                "ports": [
+                    {
+                        "description": "connected to SW1 on port Ethernet2/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 31,
+                        "name": "Ethernet0/0",
+                        "port_number": 0,
+                        "id": 253,
+                        "adapter_number": 0
+                    },
+                    {
+                        "description": "connected to SW3 on port Ethernet2/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 43,
+                        "name": "Ethernet0/1",
+                        "port_number": 1,
+                        "id": 254,
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 255,
+                        "name": "Ethernet0/2",
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 256,
+                        "name": "Ethernet0/3",
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 0,
+                        "id": 257,
+                        "name": "Serial1/0",
+                        "adapter_number": 1
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 258,
+                        "name": "Serial1/1",
+                        "adapter_number": 1
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 259,
+                        "name": "Serial1/2",
+                        "adapter_number": 1
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 260,
+                        "name": "Serial1/3",
+                        "adapter_number": 1
+                    },
+                    {
+                        "port_number": 0,
+                        "id": 261,
+                        "name": "Serial2/0",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 262,
+                        "name": "Serial2/1",
+                        "adapter_number": 2
+                    },
+                    {
+                        "description": "connected to R10 on port Serial2/2",
+                        "nio": "NIO_UDP",
+                        "link_id": 81,
+                        "name": "Serial2/2",
+                        "port_number": 2,
+                        "id": 263,
+                        "adapter_number": 2
+                    },
+                    {
+                        "description": "connected to R10 on port Serial2/3",
+                        "nio": "NIO_UDP",
+                        "link_id": 82,
+                        "name": "Serial2/3",
+                        "port_number": 3,
+                        "id": 264,
+                        "adapter_number": 2
+                    }
+                ],
+                "id": 15,
+                "server_id": 1,
+                "symbol": ":/symbols/router.svg",
+                "vm_id": "808999f4-bc1c-4752-8e73-489e848d3d26",
+                "properties": {
+                    "startup_config": "startup-config.cfg",
+                    "ethernet_adapters": 1,
+                    "ram": 384,
+                    "use_default_iou_values": false,
+                    "console": 5008,
+                    "name": "R9",
+                    "l1_keepalives": false,
+                    "md5sum": "2eabae17778316c49cbc80e8e81262f9",
+                    "nvram": 1024,
+                    "path": "i86bi-linux-l3-adventerprisek9-15.4.1T.bin",
+                    "serial_adapters": 2
+                },
+                "description": "IOU device"
+            },
+            {
+                "x": 63.39487757861701,
+                "label": {
+                    "x": 12.0,
+                    "color": "#ff000000",
+                    "y": -25.0,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "R10"
+                },
+                "y": 232.9604614807106,
+                "type": "IOUDevice",
+                "ports": [
+                    {
+                        "description": "connected to SW1 on port Ethernet2/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 32,
+                        "name": "Ethernet0/0",
+                        "port_number": 0,
+                        "id": 265,
+                        "adapter_number": 0
+                    },
+                    {
+                        "description": "connected to SW4 on port Ethernet2/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 44,
+                        "name": "Ethernet0/1",
+                        "port_number": 1,
+                        "id": 266,
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 267,
+                        "name": "Ethernet0/2",
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 268,
+                        "name": "Ethernet0/3",
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 0,
+                        "id": 269,
+                        "name": "Serial1/0",
+                        "adapter_number": 1
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 270,
+                        "name": "Serial1/1",
+                        "adapter_number": 1
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 271,
+                        "name": "Serial1/2",
+                        "adapter_number": 1
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 272,
+                        "name": "Serial1/3",
+                        "adapter_number": 1
+                    },
+                    {
+                        "port_number": 0,
+                        "id": 273,
+                        "name": "Serial2/0",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 274,
+                        "name": "Serial2/1",
+                        "adapter_number": 2
+                    },
+                    {
+                        "description": "connected to R9 on port Serial2/2",
+                        "nio": "NIO_UDP",
+                        "link_id": 81,
+                        "name": "Serial2/2",
+                        "port_number": 2,
+                        "id": 275,
+                        "adapter_number": 2
+                    },
+                    {
+                        "description": "connected to R9 on port Serial2/3",
+                        "nio": "NIO_UDP",
+                        "link_id": 82,
+                        "name": "Serial2/3",
+                        "port_number": 3,
+                        "id": 276,
+                        "adapter_number": 2
+                    }
+                ],
+                "id": 16,
+                "server_id": 1,
+                "symbol": ":/symbols/router.svg",
+                "vm_id": "dbffec52-773c-425a-a67f-f30a27988fe3",
+                "properties": {
+                    "startup_config": "startup-config.cfg",
+                    "ethernet_adapters": 1,
+                    "ram": 384,
+                    "use_default_iou_values": false,
+                    "console": 5009,
+                    "name": "R10",
+                    "l1_keepalives": false,
+                    "md5sum": "2eabae17778316c49cbc80e8e81262f9",
+                    "nvram": 1024,
+                    "path": "i86bi-linux-l3-adventerprisek9-15.4.1T.bin",
+                    "serial_adapters": 2
+                },
+                "description": "IOU device"
+            },
+            {
+                "x": -1074.5651506262043,
+                "label": {
+                    "x": 2.0,
+                    "color": "#ff000000",
+                    "y": -25.0,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "SW1"
+                },
+                "y": -633.2442994522836,
+                "type": "IOUDevice",
+                "ports": [
+                    {
+                        "description": "connected to R1 on port Ethernet0/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 23,
+                        "name": "Ethernet0/0",
+                        "port_number": 0,
+                        "id": 353,
+                        "adapter_number": 0
+                    },
+                    {
+                        "description": "connected to R2 on port Ethernet0/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 24,
+                        "name": "Ethernet0/1",
+                        "port_number": 1,
+                        "id": 354,
+                        "adapter_number": 0
+                    },
+                    {
+                        "description": "connected to R3 on port Ethernet0/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 25,
+                        "name": "Ethernet0/2",
+                        "port_number": 2,
+                        "id": 355,
+                        "adapter_number": 0
+                    },
+                    {
+                        "description": "connected to R4 on port Ethernet0/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 26,
+                        "name": "Ethernet0/3",
+                        "port_number": 3,
+                        "id": 356,
+                        "adapter_number": 0
+                    },
+                    {
+                        "description": "connected to R5 on port Ethernet0/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 27,
+                        "name": "Ethernet1/0",
+                        "port_number": 0,
+                        "id": 357,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R6 on port Ethernet0/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 28,
+                        "name": "Ethernet1/1",
+                        "port_number": 1,
+                        "id": 358,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R7 on port Ethernet0/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 29,
+                        "name": "Ethernet1/2",
+                        "port_number": 2,
+                        "id": 359,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R8 on port Ethernet0/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 30,
+                        "name": "Ethernet1/3",
+                        "port_number": 3,
+                        "id": 360,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R9 on port Ethernet0/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 31,
+                        "name": "Ethernet2/0",
+                        "port_number": 0,
+                        "id": 361,
+                        "adapter_number": 2
+                    },
+                    {
+                        "description": "connected to R10 on port Ethernet0/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 32,
+                        "name": "Ethernet2/1",
+                        "port_number": 1,
+                        "id": 362,
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 363,
+                        "name": "Ethernet2/2",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 364,
+                        "name": "Ethernet2/3",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 0,
+                        "id": 365,
+                        "name": "Ethernet3/0",
+                        "adapter_number": 3
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 366,
+                        "name": "Ethernet3/1",
+                        "adapter_number": 3
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 367,
+                        "name": "Ethernet3/2",
+                        "adapter_number": 3
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 368,
+                        "name": "Ethernet3/3",
+                        "adapter_number": 3
+                    },
+                    {
+                        "port_number": 0,
+                        "id": 369,
+                        "name": "Ethernet4/0",
+                        "adapter_number": 4
+                    },
+                    {
+                        "description": "connected to SW2 on port Ethernet4/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 57,
+                        "name": "Ethernet4/1",
+                        "port_number": 1,
+                        "id": 370,
+                        "adapter_number": 4
+                    },
+                    {
+                        "description": "connected to SW2 on port Ethernet4/2",
+                        "nio": "NIO_UDP",
+                        "link_id": 56,
+                        "name": "Ethernet4/2",
+                        "port_number": 2,
+                        "id": 371,
+                        "adapter_number": 4
+                    },
+                    {
+                        "description": "connected to SW2 on port Ethernet4/3",
+                        "nio": "NIO_UDP",
+                        "link_id": 55,
+                        "name": "Ethernet4/3",
+                        "port_number": 3,
+                        "id": 372,
+                        "adapter_number": 4
+                    },
+                    {
+                        "description": "connected to SW3 on port Ethernet5/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 50,
+                        "name": "Ethernet5/0",
+                        "port_number": 0,
+                        "id": 373,
+                        "adapter_number": 5
+                    },
+                    {
+                        "description": "connected to SW3 on port Ethernet5/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 49,
+                        "name": "Ethernet5/1",
+                        "port_number": 1,
+                        "id": 374,
+                        "adapter_number": 5
+                    },
+                    {
+                        "description": "connected to SW4 on port Ethernet5/2",
+                        "nio": "NIO_UDP",
+                        "link_id": 46,
+                        "name": "Ethernet5/2",
+                        "port_number": 2,
+                        "id": 375,
+                        "adapter_number": 5
+                    },
+                    {
+                        "description": "connected to SW4 on port Ethernet5/3",
+                        "nio": "NIO_UDP",
+                        "link_id": 45,
+                        "name": "Ethernet5/3",
+                        "port_number": 3,
+                        "id": 376,
+                        "adapter_number": 5
+                    }
+                ],
+                "id": 17,
+                "server_id": 1,
+                "vm_id": "f694077b-72a8-4c5d-8511-4633781504ac",
+                "properties": {
+                    "startup_config": "startup-config.cfg",
+                    "ethernet_adapters": 6,
+                    "ram": 256,
+                    "use_default_iou_values": true,
+                    "console": 5010,
+                    "name": "SW1",
+                    "l1_keepalives": false,
+                    "md5sum": "9549a20a7391fb849da32caa77a0d254",
+                    "nvram": 128,
+                    "path": "i86bi-linux-l2-adventerprisek9-15.1a.bin",
+                    "serial_adapters": 0
+                },
+                "description": "IOU device"
+            },
+            {
+                "x": -782.5841276724619,
+                "label": {
+                    "x": 2.0,
+                    "color": "#ff000000",
+                    "y": -25.0,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "SW2"
+                },
+                "y": -626.901153701776,
+                "type": "IOUDevice",
+                "ports": [
+                    {
+                        "description": "connected to R1 on port Ethernet0/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 33,
+                        "name": "Ethernet0/0",
+                        "port_number": 0,
+                        "id": 377,
+                        "adapter_number": 0
+                    },
+                    {
+                        "description": "connected to R2 on port Ethernet0/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 34,
+                        "name": "Ethernet0/1",
+                        "port_number": 1,
+                        "id": 378,
+                        "adapter_number": 0
+                    },
+                    {
+                        "description": "connected to R3 on port Ethernet0/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 35,
+                        "name": "Ethernet0/2",
+                        "port_number": 2,
+                        "id": 379,
+                        "adapter_number": 0
+                    },
+                    {
+                        "description": "connected to R4 on port Ethernet0/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 36,
+                        "name": "Ethernet0/3",
+                        "port_number": 3,
+                        "id": 380,
+                        "adapter_number": 0
+                    },
+                    {
+                        "description": "connected to R5 on port Ethernet0/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 37,
+                        "name": "Ethernet1/0",
+                        "port_number": 0,
+                        "id": 381,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R6 on port Ethernet0/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 38,
+                        "name": "Ethernet1/1",
+                        "port_number": 1,
+                        "id": 382,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R7 on port Ethernet0/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 39,
+                        "name": "Ethernet1/2",
+                        "port_number": 2,
+                        "id": 383,
+                        "adapter_number": 1
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 384,
+                        "name": "Ethernet1/3",
+                        "adapter_number": 1
+                    },
+                    {
+                        "port_number": 0,
+                        "id": 385,
+                        "name": "Ethernet2/0",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 386,
+                        "name": "Ethernet2/1",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 387,
+                        "name": "Ethernet2/2",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 388,
+                        "name": "Ethernet2/3",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 0,
+                        "id": 389,
+                        "name": "Ethernet3/0",
+                        "adapter_number": 3
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 390,
+                        "name": "Ethernet3/1",
+                        "adapter_number": 3
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 391,
+                        "name": "Ethernet3/2",
+                        "adapter_number": 3
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 392,
+                        "name": "Ethernet3/3",
+                        "adapter_number": 3
+                    },
+                    {
+                        "port_number": 0,
+                        "id": 393,
+                        "name": "Ethernet4/0",
+                        "adapter_number": 4
+                    },
+                    {
+                        "description": "connected to SW1 on port Ethernet4/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 57,
+                        "name": "Ethernet4/1",
+                        "port_number": 1,
+                        "id": 394,
+                        "adapter_number": 4
+                    },
+                    {
+                        "description": "connected to SW1 on port Ethernet4/2",
+                        "nio": "NIO_UDP",
+                        "link_id": 56,
+                        "name": "Ethernet4/2",
+                        "port_number": 2,
+                        "id": 395,
+                        "adapter_number": 4
+                    },
+                    {
+                        "description": "connected to SW1 on port Ethernet4/3",
+                        "nio": "NIO_UDP",
+                        "link_id": 55,
+                        "name": "Ethernet4/3",
+                        "port_number": 3,
+                        "id": 396,
+                        "adapter_number": 4
+                    },
+                    {
+                        "description": "connected to SW4 on port Ethernet5/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 52,
+                        "name": "Ethernet5/0",
+                        "port_number": 0,
+                        "id": 397,
+                        "adapter_number": 5
+                    },
+                    {
+                        "description": "connected to SW4 on port Ethernet5/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 51,
+                        "name": "Ethernet5/1",
+                        "port_number": 1,
+                        "id": 398,
+                        "adapter_number": 5
+                    },
+                    {
+                        "description": "connected to SW3 on port Ethernet5/2",
+                        "nio": "NIO_UDP",
+                        "link_id": 48,
+                        "name": "Ethernet5/2",
+                        "port_number": 2,
+                        "id": 399,
+                        "adapter_number": 5
+                    },
+                    {
+                        "description": "connected to SW3 on port Ethernet5/3",
+                        "nio": "NIO_UDP",
+                        "link_id": 47,
+                        "name": "Ethernet5/3",
+                        "port_number": 3,
+                        "id": 400,
+                        "adapter_number": 5
+                    }
+                ],
+                "id": 18,
+                "server_id": 1,
+                "vm_id": "7d61967f-8e3f-479d-95b2-db54bb7ee1cd",
+                "properties": {
+                    "startup_config": "startup-config.cfg",
+                    "ethernet_adapters": 6,
+                    "ram": 256,
+                    "use_default_iou_values": true,
+                    "console": 5011,
+                    "name": "SW2",
+                    "l1_keepalives": false,
+                    "md5sum": "9549a20a7391fb849da32caa77a0d254",
+                    "nvram": 128,
+                    "path": "i86bi-linux-l2-adventerprisek9-15.1a.bin",
+                    "serial_adapters": 0
+                },
+                "description": "IOU device"
+            },
+            {
+                "x": -1074.5597410548228,
+                "label": {
+                    "x": 2.0,
+                    "color": "#ff000000",
+                    "y": -25.0,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "SW3"
+                },
+                "y": -301.1639969244286,
+                "type": "IOUDevice",
+                "ports": [
+                    {
+                        "port_number": 0,
+                        "id": 401,
+                        "name": "Ethernet0/0",
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 402,
+                        "name": "Ethernet0/1",
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 403,
+                        "name": "Ethernet0/2",
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 404,
+                        "name": "Ethernet0/3",
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 0,
+                        "id": 405,
+                        "name": "Ethernet1/0",
+                        "adapter_number": 1
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 406,
+                        "name": "Ethernet1/1",
+                        "adapter_number": 1
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 407,
+                        "name": "Ethernet1/2",
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R8 on port Ethernet0/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 42,
+                        "name": "Ethernet1/3",
+                        "port_number": 3,
+                        "id": 408,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R9 on port Ethernet0/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 43,
+                        "name": "Ethernet2/0",
+                        "port_number": 0,
+                        "id": 409,
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 410,
+                        "name": "Ethernet2/1",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 411,
+                        "name": "Ethernet2/2",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 412,
+                        "name": "Ethernet2/3",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 0,
+                        "id": 413,
+                        "name": "Ethernet3/0",
+                        "adapter_number": 3
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 414,
+                        "name": "Ethernet3/1",
+                        "adapter_number": 3
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 415,
+                        "name": "Ethernet3/2",
+                        "adapter_number": 3
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 416,
+                        "name": "Ethernet3/3",
+                        "adapter_number": 3
+                    },
+                    {
+                        "port_number": 0,
+                        "id": 417,
+                        "name": "Ethernet4/0",
+                        "adapter_number": 4
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 418,
+                        "name": "Ethernet4/1",
+                        "adapter_number": 4
+                    },
+                    {
+                        "description": "connected to SW4 on port Ethernet4/2",
+                        "nio": "NIO_UDP",
+                        "link_id": 54,
+                        "name": "Ethernet4/2",
+                        "port_number": 2,
+                        "id": 419,
+                        "adapter_number": 4
+                    },
+                    {
+                        "description": "connected to SW4 on port Ethernet4/3",
+                        "nio": "NIO_UDP",
+                        "link_id": 53,
+                        "name": "Ethernet4/3",
+                        "port_number": 3,
+                        "id": 420,
+                        "adapter_number": 4
+                    },
+                    {
+                        "description": "connected to SW1 on port Ethernet5/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 50,
+                        "name": "Ethernet5/0",
+                        "port_number": 0,
+                        "id": 421,
+                        "adapter_number": 5
+                    },
+                    {
+                        "description": "connected to SW1 on port Ethernet5/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 49,
+                        "name": "Ethernet5/1",
+                        "port_number": 1,
+                        "id": 422,
+                        "adapter_number": 5
+                    },
+                    {
+                        "description": "connected to SW2 on port Ethernet5/2",
+                        "nio": "NIO_UDP",
+                        "link_id": 48,
+                        "name": "Ethernet5/2",
+                        "port_number": 2,
+                        "id": 423,
+                        "adapter_number": 5
+                    },
+                    {
+                        "description": "connected to SW2 on port Ethernet5/3",
+                        "nio": "NIO_UDP",
+                        "link_id": 47,
+                        "name": "Ethernet5/3",
+                        "port_number": 3,
+                        "id": 424,
+                        "adapter_number": 5
+                    }
+                ],
+                "id": 19,
+                "server_id": 1,
+                "vm_id": "a09b09c9-2ae3-4ff4-a400-82b5770366c5",
+                "properties": {
+                    "startup_config": "startup-config.cfg",
+                    "ethernet_adapters": 6,
+                    "ram": 256,
+                    "use_default_iou_values": true,
+                    "console": 5012,
+                    "name": "SW3",
+                    "l1_keepalives": false,
+                    "md5sum": "9549a20a7391fb849da32caa77a0d254",
+                    "nvram": 128,
+                    "path": "i86bi-linux-l2-adventerprisek9-15.1a.bin",
+                    "serial_adapters": 0
+                },
+                "description": "IOU device"
+            },
+            {
+                "x": -762.9272734229698,
+                "label": {
+                    "x": 6.0,
+                    "color": "#ff000000",
+                    "y": -29.0,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "SW4"
+                },
+                "y": -299.05634918610383,
+                "type": "IOUDevice",
+                "ports": [
+                    {
+                        "port_number": 0,
+                        "id": 425,
+                        "name": "Ethernet0/0",
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 426,
+                        "name": "Ethernet0/1",
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 427,
+                        "name": "Ethernet0/2",
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 428,
+                        "name": "Ethernet0/3",
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 0,
+                        "id": 429,
+                        "name": "Ethernet1/0",
+                        "adapter_number": 1
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 430,
+                        "name": "Ethernet1/1",
+                        "adapter_number": 1
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 431,
+                        "name": "Ethernet1/2",
+                        "adapter_number": 1
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 432,
+                        "name": "Ethernet1/3",
+                        "adapter_number": 1
+                    },
+                    {
+                        "port_number": 0,
+                        "id": 433,
+                        "name": "Ethernet2/0",
+                        "adapter_number": 2
+                    },
+                    {
+                        "description": "connected to R10 on port Ethernet0/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 44,
+                        "name": "Ethernet2/1",
+                        "port_number": 1,
+                        "id": 434,
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 435,
+                        "name": "Ethernet2/2",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 436,
+                        "name": "Ethernet2/3",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 0,
+                        "id": 437,
+                        "name": "Ethernet3/0",
+                        "adapter_number": 3
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 438,
+                        "name": "Ethernet3/1",
+                        "adapter_number": 3
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 439,
+                        "name": "Ethernet3/2",
+                        "adapter_number": 3
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 440,
+                        "name": "Ethernet3/3",
+                        "adapter_number": 3
+                    },
+                    {
+                        "port_number": 0,
+                        "id": 441,
+                        "name": "Ethernet4/0",
+                        "adapter_number": 4
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 442,
+                        "name": "Ethernet4/1",
+                        "adapter_number": 4
+                    },
+                    {
+                        "description": "connected to SW3 on port Ethernet4/2",
+                        "nio": "NIO_UDP",
+                        "link_id": 54,
+                        "name": "Ethernet4/2",
+                        "port_number": 2,
+                        "id": 443,
+                        "adapter_number": 4
+                    },
+                    {
+                        "description": "connected to SW3 on port Ethernet4/3",
+                        "nio": "NIO_UDP",
+                        "link_id": 53,
+                        "name": "Ethernet4/3",
+                        "port_number": 3,
+                        "id": 444,
+                        "adapter_number": 4
+                    },
+                    {
+                        "description": "connected to SW2 on port Ethernet5/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 52,
+                        "name": "Ethernet5/0",
+                        "port_number": 0,
+                        "id": 445,
+                        "adapter_number": 5
+                    },
+                    {
+                        "description": "connected to SW2 on port Ethernet5/1",
+                        "nio": "NIO_UDP",
+                        "link_id": 51,
+                        "name": "Ethernet5/1",
+                        "port_number": 1,
+                        "id": 446,
+                        "adapter_number": 5
+                    },
+                    {
+                        "description": "connected to SW1 on port Ethernet5/2",
+                        "nio": "NIO_UDP",
+                        "link_id": 46,
+                        "name": "Ethernet5/2",
+                        "port_number": 2,
+                        "id": 447,
+                        "adapter_number": 5
+                    },
+                    {
+                        "description": "connected to SW1 on port Ethernet5/3",
+                        "nio": "NIO_UDP",
+                        "link_id": 45,
+                        "name": "Ethernet5/3",
+                        "port_number": 3,
+                        "id": 448,
+                        "adapter_number": 5
+                    }
+                ],
+                "id": 20,
+                "server_id": 1,
+                "vm_id": "aa899bbf-13a4-4faf-8632-c756b995462d",
+                "properties": {
+                    "startup_config": "startup-config.cfg",
+                    "ethernet_adapters": 6,
+                    "ram": 256,
+                    "use_default_iou_values": true,
+                    "console": 5013,
+                    "name": "SW4",
+                    "l1_keepalives": false,
+                    "md5sum": "9549a20a7391fb849da32caa77a0d254",
+                    "nvram": 128,
+                    "path": "i86bi-linux-l2-adventerprisek9-15.1a.bin",
+                    "serial_adapters": 0
+                },
+                "description": "IOU device"
+            },
+            {
+                "x": -241.30865786510128,
+                "label": {
+                    "x": 17.5,
+                    "color": "#ff000000",
+                    "y": -25.0,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "R5"
+                },
+                "y": -175.62236636408613,
+                "type": "IOUDevice",
+                "ports": [
+                    {
+                        "description": "connected to SW1 on port Ethernet1/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 27,
+                        "name": "Ethernet0/0",
+                        "port_number": 0,
+                        "id": 341,
+                        "adapter_number": 0
+                    },
+                    {
+                        "description": "connected to SW2 on port Ethernet1/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 37,
+                        "name": "Ethernet0/1",
+                        "port_number": 1,
+                        "id": 342,
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 343,
+                        "name": "Ethernet0/2",
+                        "adapter_number": 0
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 344,
+                        "name": "Ethernet0/3",
+                        "adapter_number": 0
+                    },
+                    {
+                        "description": "connected to R1 on port Serial1/3",
+                        "nio": "NIO_UDP",
+                        "link_id": 68,
+                        "name": "Serial1/0",
+                        "port_number": 0,
+                        "id": 345,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R2 on port Serial1/3",
+                        "nio": "NIO_UDP",
+                        "link_id": 73,
+                        "name": "Serial1/1",
+                        "port_number": 1,
+                        "id": 346,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R3 on port Serial1/3",
+                        "nio": "NIO_UDP",
+                        "link_id": 76,
+                        "name": "Serial1/2",
+                        "port_number": 2,
+                        "id": 347,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R4 on port Serial1/3",
+                        "nio": "NIO_UDP",
+                        "link_id": 78,
+                        "name": "Serial1/3",
+                        "port_number": 3,
+                        "id": 348,
+                        "adapter_number": 1
+                    },
+                    {
+                        "description": "connected to R6 on port Serial2/0",
+                        "nio": "NIO_UDP",
+                        "link_id": 80,
+                        "name": "Serial2/0",
+                        "port_number": 0,
+                        "id": 349,
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 1,
+                        "id": 350,
+                        "name": "Serial2/1",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 2,
+                        "id": 351,
+                        "name": "Serial2/2",
+                        "adapter_number": 2
+                    },
+                    {
+                        "port_number": 3,
+                        "id": 352,
+                        "name": "Serial2/3",
+                        "adapter_number": 2
+                    }
+                ],
+                "id": 21,
+                "server_id": 1,
+                "symbol": ":/symbols/router.svg",
+                "vm_id": "e35fbf07-563c-4928-aff3-4b84efc83896",
+                "properties": {
+                    "startup_config": "startup-config.cfg",
+                    "ethernet_adapters": 1,
+                    "ram": 384,
+                    "use_default_iou_values": false,
+                    "console": 5004,
+                    "name": "R5",
+                    "l1_keepalives": false,
+                    "md5sum": "2eabae17778316c49cbc80e8e81262f9",
+                    "nvram": 1024,
+                    "path": "i86bi-linux-l3-adventerprisek9-15.4.1T.bin",
+                    "serial_adapters": 2
+                },
+                "description": "IOU device"
+            }
+        ],
+        "links": [
+            {
+                "description": "Link from SW1 port Ethernet0/0 to R1 port Ethernet0/0",
+                "destination_port_label": {
+                    "x": -6.935437537254899,
+                    "color": "#ff000000",
+                    "y": 19.72825425982296,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/0"
+                },
+                "destination_port_id": 157,
+                "source_port_id": 353,
+                "destination_node_id": 7,
+                "id": 23,
+                "source_port_label": {
+                    "x": 65.43543753725487,
+                    "color": "#ff000000",
+                    "y": 25.77174574017704,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/0"
+                },
+                "source_node_id": 17
+            },
+            {
+                "description": "Link from SW1 port Ethernet0/1 to R2 port Ethernet0/0",
+                "destination_port_label": {
+                    "x": -6.727574632740314,
+                    "color": "#ff000000",
+                    "y": 17.339547897462296,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/0"
+                },
+                "destination_port_id": 169,
+                "source_port_id": 354,
+                "destination_node_id": 8,
+                "id": 24,
+                "source_port_label": {
+                    "x": 65.22757463274036,
+                    "color": "#ff000000",
+                    "y": 28.160452102537704,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/1"
+                },
+                "source_node_id": 17
+            },
+            {
+                "description": "Link from SW1 port Ethernet0/2 to R3 port Ethernet0/0",
+                "destination_port_label": {
+                    "x": -5.129004208887324,
+                    "color": "#ff000000",
+                    "y": 9.909547649543782,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/0"
+                },
+                "destination_port_id": 181,
+                "source_port_id": 355,
+                "destination_node_id": 9,
+                "id": 25,
+                "source_port_label": {
+                    "x": 63.629004208887295,
+                    "color": "#ff000000",
+                    "y": 35.590452350456246,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/2"
+                },
+                "source_node_id": 17
+            },
+            {
+                "description": "Link from SW1 port Ethernet0/3 to R4 port Ethernet0/0",
+                "destination_port_label": {
+                    "x": -5.293258020927809,
+                    "color": "#ff000000",
+                    "y": 10.440311849247536,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/0"
+                },
+                "destination_port_id": 193,
+                "source_port_id": 356,
+                "destination_node_id": 10,
+                "id": 26,
+                "source_port_label": {
+                    "x": 63.79325802092785,
+                    "color": "#ff000000",
+                    "y": 35.05968815075249,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/3"
+                },
+                "source_node_id": 17
+            },
+            {
+                "description": "Link from SW1 port Ethernet1/0 to R5 port Ethernet0/0",
+                "destination_port_label": {
+                    "x": -2.5272618359861667,
+                    "color": "#ff000000",
+                    "y": 3.6202919926001016,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/0"
+                },
+                "destination_port_id": 341,
+                "source_port_id": 357,
+                "destination_node_id": 21,
+                "id": 27,
+                "source_port_label": {
+                    "x": 61.027261835986224,
+                    "color": "#ff000000",
+                    "y": 41.87970800739993,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e1/0"
+                },
+                "source_node_id": 17
+            },
+            {
+                "description": "Link from SW1 port Ethernet1/1 to R6 port Ethernet0/0",
+                "destination_port_label": {
+                    "x": -3.4616286204907567,
+                    "color": "#ff000000",
+                    "y": 5.551606815819099,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/0"
+                },
+                "destination_port_id": 217,
+                "source_port_id": 358,
+                "destination_node_id": 12,
+                "id": 28,
+                "source_port_label": {
+                    "x": 61.96162862049073,
+                    "color": "#ff000000",
+                    "y": 39.94839318418087,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e1/1"
+                },
+                "source_node_id": 17
+            },
+            {
+                "description": "Link from SW1 port Ethernet1/2 to R7 port Ethernet0/0",
+                "destination_port_label": {
+                    "x": 0.27545237393385946,
+                    "color": "#ff000000",
+                    "y": -1.0022603817392195,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/0"
+                },
+                "destination_port_id": 229,
+                "source_port_id": 359,
+                "destination_node_id": 13,
+                "id": 29,
+                "source_port_label": {
+                    "x": 58.22454762606617,
+                    "color": "#ff000000",
+                    "y": 46.502260381739234,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e1/2"
+                },
+                "source_node_id": 17
+            },
+            {
+                "description": "Link from SW1 port Ethernet1/3 to R8 port Ethernet0/0",
+                "destination_port_label": {
+                    "x": -1.4686909268008463,
+                    "color": "#ff000000",
+                    "y": 1.7044500987857987,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/0"
+                },
+                "destination_port_id": 241,
+                "source_port_id": 360,
+                "destination_node_id": 14,
+                "id": 30,
+                "source_port_label": {
+                    "x": 59.96869092680083,
+                    "color": "#ff000000",
+                    "y": 43.7955499012142,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e1/3"
+                },
+                "source_node_id": 17
+            },
+            {
+                "description": "Link from SW1 port Ethernet2/0 to R9 port Ethernet0/0",
+                "destination_port_label": {
+                    "x": 2.6027368377792754,
+                    "color": "#ff000000",
+                    "y": -4.000122927530526,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/0"
+                },
+                "destination_port_id": 253,
+                "source_port_id": 361,
+                "destination_node_id": 15,
+                "id": 31,
+                "source_port_label": {
+                    "x": 55.897263162220725,
+                    "color": "#ff000000",
+                    "y": 49.500122927530526,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e2/0"
+                },
+                "source_node_id": 17
+            },
+            {
+                "description": "Link from SW1 port Ethernet2/1 to R10 port Ethernet0/0",
+                "destination_port_label": {
+                    "x": 0.799627437715003,
+                    "color": "#ff000000",
+                    "y": -1.7304868650022627,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/0"
+                },
+                "destination_port_id": 265,
+                "source_port_id": 362,
+                "destination_node_id": 16,
+                "id": 32,
+                "source_port_label": {
+                    "x": 57.700372562285,
+                    "color": "#ff000000",
+                    "y": 47.23048686500226,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e2/1"
+                },
+                "source_node_id": 17
+            },
+            {
+                "description": "Link from SW2 port Ethernet0/0 to R1 port Ethernet0/1",
+                "destination_port_label": {
+                    "x": -6.823624699099639,
+                    "color": "#ff000000",
+                    "y": 18.247811861691787,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/1"
+                },
+                "destination_port_id": 158,
+                "source_port_id": 377,
+                "destination_node_id": 7,
+                "id": 33,
+                "source_port_label": {
+                    "x": 65.3236246990997,
+                    "color": "#ff000000",
+                    "y": 27.252188138308213,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/0"
+                },
+                "source_node_id": 18
+            },
+            {
+                "description": "Link from SW2 port Ethernet0/1 to R2 port Ethernet0/1",
+                "destination_port_label": {
+                    "x": -6.449035539090673,
+                    "color": "#ff000000",
+                    "y": 15.383838345720335,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/1"
+                },
+                "destination_port_id": 170,
+                "source_port_id": 378,
+                "destination_node_id": 8,
+                "id": 34,
+                "source_port_label": {
+                    "x": 64.94903553909069,
+                    "color": "#ff000000",
+                    "y": 30.116161654279665,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/1"
+                },
+                "source_node_id": 18
+            },
+            {
+                "description": "Link from SW2 port Ethernet0/2 to R3 port Ethernet0/1",
+                "destination_port_label": {
+                    "x": -2.0025839802343626,
+                    "color": "#ff000000",
+                    "y": 2.639754270499509,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/1"
+                },
+                "destination_port_id": 182,
+                "source_port_id": 379,
+                "destination_node_id": 9,
+                "id": 35,
+                "source_port_label": {
+                    "x": 60.50258398023436,
+                    "color": "#ff000000",
+                    "y": 42.86024572950049,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/2"
+                },
+                "source_node_id": 18
+            },
+            {
+                "description": "Link from SW2 port Ethernet0/3 to R4 port Ethernet0/1",
+                "destination_port_label": {
+                    "x": -3.6396105842000424,
+                    "color": "#ff000000",
+                    "y": 5.95198030166415,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/1"
+                },
+                "destination_port_id": 194,
+                "source_port_id": 380,
+                "destination_node_id": 10,
+                "id": 36,
+                "source_port_label": {
+                    "x": 62.1396105842,
+                    "color": "#ff000000",
+                    "y": 39.54801969833585,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/3"
+                },
+                "source_node_id": 18
+            },
+            {
+                "description": "Link from SW2 port Ethernet1/0 to R5 port Ethernet0/1",
+                "destination_port_label": {
+                    "x": 3.103780732026877,
+                    "color": "#ff000000",
+                    "y": -4.574726216487576,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/1"
+                },
+                "destination_port_id": 342,
+                "source_port_id": 381,
+                "destination_node_id": 21,
+                "id": 37,
+                "source_port_label": {
+                    "x": 55.39621926797315,
+                    "color": "#ff000000",
+                    "y": 50.07472621648759,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e1/0"
+                },
+                "source_node_id": 18
+            },
+            {
+                "description": "Link from SW2 port Ethernet1/1 to R6 port Ethernet0/1",
+                "destination_port_label": {
+                    "x": -0.3972021139964568,
+                    "color": "#ff000000",
+                    "y": -0.014242911280657466,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/1"
+                },
+                "destination_port_id": 218,
+                "source_port_id": 382,
+                "destination_node_id": 12,
+                "id": 38,
+                "source_port_label": {
+                    "x": 58.897202113996514,
+                    "color": "#ff000000",
+                    "y": 45.51424291128063,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e1/1"
+                },
+                "source_node_id": 18
+            },
+            {
+                "description": "Link from SW2 port Ethernet1/2 to R7 port Ethernet0/1",
+                "destination_port_label": {
+                    "x": 7.330001427045005,
+                    "color": "#ff000000",
+                    "y": -8.676557389389188,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/1"
+                },
+                "destination_port_id": 230,
+                "source_port_id": 383,
+                "destination_node_id": 13,
+                "id": 39,
+                "source_port_label": {
+                    "x": 51.16999857295502,
+                    "color": "#ff000000",
+                    "y": 54.17655738938919,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e1/2"
+                },
+                "source_node_id": 18
+            },
+            {
+                "description": "Link from SW3 port Ethernet1/3 to R8 port Ethernet0/1",
+                "destination_port_label": {
+                    "x": -6.817762971547282,
+                    "color": "#ff000000",
+                    "y": 18.186110654243294,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/1"
+                },
+                "destination_port_id": 242,
+                "source_port_id": 408,
+                "destination_node_id": 14,
+                "id": 42,
+                "source_port_label": {
+                    "x": 65.31776297154727,
+                    "color": "#ff000000",
+                    "y": 27.3138893457567,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e1/3"
+                },
+                "source_node_id": 19
+            },
+            {
+                "description": "Link from SW3 port Ethernet2/0 to R9 port Ethernet0/1",
+                "destination_port_label": {
+                    "x": -6.146680863672856,
+                    "color": "#ff000000",
+                    "y": 13.781887238681293,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/1"
+                },
+                "destination_port_id": 254,
+                "source_port_id": 409,
+                "destination_node_id": 15,
+                "id": 43,
+                "source_port_label": {
+                    "x": 64.64668086367283,
+                    "color": "#ff000000",
+                    "y": 31.718112761318707,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e2/0"
+                },
+                "source_node_id": 19
+            },
+            {
+                "description": "Link from R10 port Ethernet0/1 to SW4 port Ethernet2/1",
+                "destination_port_label": {
+                    "x": 62.778667298971186,
+                    "color": "#ff000000",
+                    "y": 38.0017572870537,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e2/1"
+                },
+                "destination_port_id": 434,
+                "source_port_id": 266,
+                "destination_node_id": 20,
+                "id": 44,
+                "source_port_label": {
+                    "x": -4.278667298971186,
+                    "color": "#ff000000",
+                    "y": 7.498242712946308,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0/1"
+                },
+                "source_node_id": 16
+            },
+            {
+                "description": "Link from SW1 port Ethernet5/3 to SW4 port Ethernet5/3",
+                "destination_port_label": {
+                    "x": 2.564543208732175,
+                    "color": "#ff000000",
+                    "y": -9.271402499372641,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e5/3"
+                },
+                "destination_port_id": 448,
+                "source_port_id": 376,
+                "destination_node_id": 20,
+                "id": 45,
+                "source_port_label": {
+                    "x": 48.435456791267825,
+                    "color": "#ff000000",
+                    "y": 56.27140249937264,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e5/3"
+                },
+                "source_node_id": 17
+            },
+            {
+                "description": "Link from SW1 port Ethernet5/2 to SW4 port Ethernet5/2",
+                "destination_port_label": {
+                    "x": 6.660968521153791,
+                    "color": "#ff000000",
+                    "y": -12.13833459828112,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e5/2"
+                },
+                "destination_port_id": 447,
+                "source_port_id": 375,
+                "destination_node_id": 20,
+                "id": 46,
+                "source_port_label": {
+                    "x": 52.53188210368944,
+                    "color": "#ff000000",
+                    "y": 53.40447040046416,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e5/2"
+                },
+                "source_node_id": 17
+            },
+            {
+                "description": "Link from SW3 port Ethernet5/3 to SW2 port Ethernet5/3",
+                "destination_port_label": {
+                    "x": 3.4976710993836377,
+                    "color": "#ff000000",
+                    "y": 56.90505235662869,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e5/3"
+                },
+                "destination_port_id": 400,
+                "source_port_id": 424,
+                "destination_node_id": 18,
+                "id": 47,
+                "source_port_label": {
+                    "x": 47.50232890061636,
+                    "color": "#ff000000",
+                    "y": -9.905052356628701,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e5/3"
+                },
+                "source_node_id": 19
+            },
+            {
+                "description": "Link from SW3 port Ethernet5/2 to SW2 port Ethernet5/2",
+                "destination_port_label": {
+                    "x": -0.6779604451949126,
+                    "color": "#ff000000",
+                    "y": 54.154761244051656,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e5/2"
+                },
+                "destination_port_id": 399,
+                "source_port_id": 423,
+                "destination_node_id": 18,
+                "id": 48,
+                "source_port_label": {
+                    "x": 43.32669735603781,
+                    "color": "#ff000000",
+                    "y": -12.65534346920574,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e5/2"
+                },
+                "source_node_id": 19
+            },
+            {
+                "description": "Link from SW3 port Ethernet5/1 to SW1 port Ethernet5/1",
+                "destination_port_label": {
+                    "x": 25.088909776873493,
+                    "color": "#ff000000",
+                    "y": 63.497887504572645,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e5/1"
+                },
+                "destination_port_id": 374,
+                "source_port_id": 422,
+                "destination_node_id": 17,
+                "id": 49,
+                "source_port_label": {
+                    "x": 25.911090223126507,
+                    "color": "#ff000000",
+                    "y": -16.49788750457266,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e5/1"
+                },
+                "source_node_id": 19
+            },
+            {
+                "description": "Link from SW3 port Ethernet5/0 to SW1 port Ethernet5/0",
+                "destination_port_label": {
+                    "x": 20.089173838801912,
+                    "color": "#ff000000",
+                    "y": 63.446501226681846,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e5/0"
+                },
+                "destination_port_id": 373,
+                "source_port_id": 421,
+                "destination_node_id": 17,
+                "id": 50,
+                "source_port_label": {
+                    "x": 20.911354285054927,
+                    "color": "#ff000000",
+                    "y": -16.549273782463473,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e5/0"
+                },
+                "source_node_id": 19
+            },
+            {
+                "description": "Link from SW4 port Ethernet5/1 to SW2 port Ethernet5/1",
+                "destination_port_label": {
+                    "x": 27.571047627436087,
+                    "color": "#ff000000",
+                    "y": 63.44634854057239,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e5/1"
+                },
+                "destination_port_id": 398,
+                "source_port_id": 446,
+                "destination_node_id": 18,
+                "id": 51,
+                "source_port_label": {
+                    "x": 23.428952372563913,
+                    "color": "#ff000000",
+                    "y": -16.44634854057241,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e5/1"
+                },
+                "source_node_id": 20
+            },
+            {
+                "description": "Link from SW4 port Ethernet5/0 to SW2 port Ethernet5/0",
+                "destination_port_label": {
+                    "x": 22.57775405986456,
+                    "color": "#ff000000",
+                    "y": 63.70522949400191,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e5/0"
+                },
+                "destination_port_id": 397,
+                "source_port_id": 445,
+                "destination_node_id": 18,
+                "id": 52,
+                "source_port_label": {
+                    "x": 18.435658804992386,
+                    "color": "#ff000000",
+                    "y": -16.187467587142898,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e5/0"
+                },
+                "source_node_id": 20
+            },
+            {
+                "description": "Link from SW3 port Ethernet4/3 to SW4 port Ethernet4/3",
+                "destination_port_label": {
+                    "x": -14.498326592042758,
+                    "color": "#ff000000",
+                    "y": 23.8658822710729,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e4/3"
+                },
+                "destination_port_id": 444,
+                "source_port_id": 420,
+                "destination_node_id": 20,
+                "id": 53,
+                "source_port_label": {
+                    "x": 65.49832659204276,
+                    "color": "#ff000000",
+                    "y": 23.1341177289271,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e4/3"
+                },
+                "source_node_id": 19
+            },
+            {
+                "description": "Link from SW3 port Ethernet4/2 to SW4 port Ethernet4/2",
+                "destination_port_label": {
+                    "x": -14.5440618759269,
+                    "color": "#ff000000",
+                    "y": 18.866091447067554,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e4/2"
+                },
+                "destination_port_id": 443,
+                "source_port_id": 419,
+                "destination_node_id": 20,
+                "id": 54,
+                "source_port_label": {
+                    "x": 65.45259130815862,
+                    "color": "#ff000000",
+                    "y": 18.134326904921757,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e4/2"
+                },
+                "source_node_id": 19
+            },
+            {
+                "description": "Link from SW1 port Ethernet4/3 to SW2 port Ethernet4/3",
+                "destination_port_label": {
+                    "x": -14.49803090714886,
+                    "color": "#ff000000",
+                    "y": 23.103107633275158,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e4/3"
+                },
+                "destination_port_id": 396,
+                "source_port_id": 372,
+                "destination_node_id": 18,
+                "id": 55,
+                "source_port_label": {
+                    "x": 65.49803090714886,
+                    "color": "#ff000000",
+                    "y": 23.896892366724842,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e4/3"
+                },
+                "source_node_id": 17
+            },
+            {
+                "description": "Link from SW1 port Ethernet4/2 to SW2 port Ethernet4/2",
+                "destination_port_label": {
+                    "x": -14.448419361308197,
+                    "color": "#ff000000",
+                    "y": 18.10335376988155,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e4/2"
+                },
+                "destination_port_id": 395,
+                "source_port_id": 371,
+                "destination_node_id": 18,
+                "id": 56,
+                "source_port_label": {
+                    "x": 65.54764245298952,
+                    "color": "#ff000000",
+                    "y": 18.897138503331234,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e4/2"
+                },
+                "source_node_id": 17
+            },
+            {
+                "description": "Link from SW1 port Ethernet4/1 to SW2 port Ethernet4/1",
+                "destination_port_label": {
+                    "x": -14.547642452989521,
+                    "color": "#ff000000",
+                    "y": 28.102861496668766,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e4/1"
+                },
+                "destination_port_id": 394,
+                "source_port_id": 370,
+                "destination_node_id": 18,
+                "id": 57,
+                "source_port_label": {
+                    "x": 65.4484193613082,
+                    "color": "#ff000000",
+                    "y": 28.89664623011845,
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e4/1"
+                },
+                "source_node_id": 17
+            },
+            {
+                "description": "Link from R1 port Serial1/0 to R2 port Serial1/0",
+                "destination_port_id": 173,
+                "source_port_id": 161,
+                "destination_node_id": 8,
+                "id": 65,
+                "source_node_id": 7
+            },
+            {
+                "description": "Link from R1 port Serial1/1 to R3 port Serial1/0",
+                "destination_port_id": 185,
+                "source_port_id": 162,
+                "destination_node_id": 9,
+                "id": 66,
+                "source_node_id": 7
+            },
+            {
+                "description": "Link from R1 port Serial1/2 to R4 port Serial1/0",
+                "destination_port_id": 197,
+                "source_port_id": 163,
+                "destination_node_id": 10,
+                "id": 67,
+                "source_node_id": 7
+            },
+            {
+                "description": "Link from R1 port Serial1/3 to R5 port Serial1/0",
+                "destination_port_id": 345,
+                "source_port_id": 164,
+                "destination_node_id": 21,
+                "id": 68,
+                "source_node_id": 7
+            },
+            {
+                "description": "Link from R1 port Serial2/0 to R6 port Serial1/0",
+                "destination_port_id": 221,
+                "source_port_id": 165,
+                "destination_node_id": 12,
+                "id": 69,
+                "source_node_id": 7
+            },
+            {
+                "description": "Link from R2 port Serial1/1 to R3 port Serial1/1",
+                "destination_port_id": 186,
+                "source_port_id": 174,
+                "destination_node_id": 9,
+                "id": 70,
+                "source_node_id": 8
+            },
+            {
+                "description": "Link from R2 port Serial1/2 to R4 port Serial1/1",
+                "destination_port_id": 198,
+                "source_port_id": 175,
+                "destination_node_id": 10,
+                "id": 72,
+                "source_node_id": 8
+            },
+            {
+                "description": "Link from R2 port Serial1/3 to R5 port Serial1/1",
+                "destination_port_id": 346,
+                "source_port_id": 176,
+                "destination_node_id": 21,
+                "id": 73,
+                "source_node_id": 8
+            },
+            {
+                "description": "Link from R2 port Serial2/0 to R6 port Serial1/1",
+                "destination_port_id": 222,
+                "source_port_id": 177,
+                "destination_node_id": 12,
+                "id": 74,
+                "source_node_id": 8
+            },
+            {
+                "description": "Link from R3 port Serial1/2 to R4 port Serial1/2",
+                "destination_port_id": 199,
+                "source_port_id": 187,
+                "destination_node_id": 10,
+                "id": 75,
+                "source_node_id": 9
+            },
+            {
+                "description": "Link from R3 port Serial1/3 to R5 port Serial1/2",
+                "destination_port_id": 347,
+                "source_port_id": 188,
+                "destination_node_id": 21,
+                "id": 76,
+                "source_node_id": 9
+            },
+            {
+                "description": "Link from R3 port Serial2/0 to R6 port Serial1/2",
+                "destination_port_id": 223,
+                "source_port_id": 189,
+                "destination_node_id": 12,
+                "id": 77,
+                "source_node_id": 9
+            },
+            {
+                "description": "Link from R4 port Serial1/3 to R5 port Serial1/3",
+                "destination_port_id": 348,
+                "source_port_id": 200,
+                "destination_node_id": 21,
+                "id": 78,
+                "source_node_id": 10
+            },
+            {
+                "description": "Link from R4 port Serial2/0 to R6 port Serial1/3",
+                "destination_port_id": 224,
+                "source_port_id": 201,
+                "destination_node_id": 12,
+                "id": 79,
+                "source_node_id": 10
+            },
+            {
+                "description": "Link from R5 port Serial2/0 to R6 port Serial2/0",
+                "destination_port_id": 225,
+                "source_port_id": 349,
+                "destination_node_id": 12,
+                "id": 80,
+                "source_node_id": 21
+            },
+            {
+                "description": "Link from R9 port Serial2/2 to R10 port Serial2/2",
+                "destination_port_id": 275,
+                "source_port_id": 263,
+                "destination_node_id": 16,
+                "id": 81,
+                "source_node_id": 15
+            },
+            {
+                "description": "Link from R9 port Serial2/3 to R10 port Serial2/3",
+                "destination_port_id": 276,
+                "source_port_id": 264,
+                "destination_node_id": 16,
+                "id": 82,
+                "source_node_id": 15
+            }
+        ],
+        "servers": [
+            {
+                "id": 1,
+                "vm": false,
+                "local": true
+            }
+        ]
+    },
+    "type": "topology",
+    "name": "CCIEtemplate",
+    "project_id": "76fd0676-8540-4d84-98a1-90e910098d5e",
+    "auto_start": false,
+    "revision": 4,
+    "version": "1.5.2"
+}

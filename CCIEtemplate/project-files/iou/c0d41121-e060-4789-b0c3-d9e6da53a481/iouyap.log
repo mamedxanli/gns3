@@ -1,0 +1,29 @@
+/usr/bin/iouyap: Parsing NETMAP...
+/usr/bin/iouyap: --------------
+/usr/bin/iouyap: Configuring 517:0/0...
+/usr/bin/iouyap: starting foreign listener
+/usr/bin/iouyap: --------------
+/usr/bin/iouyap: Configuring 517:1/0...
+/usr/bin/iouyap: starting foreign listener
+/usr/bin/iouyap: --------------
+/usr/bin/iouyap: Configuring 517:2/0...
+/usr/bin/iouyap: starting foreign listener
+/usr/bin/iouyap: --------------
+/usr/bin/iouyap: Configuring 517:0/1...
+/usr/bin/iouyap: starting foreign listener
+/usr/bin/iouyap: --------------
+/usr/bin/iouyap: Configuring 517:1/1...
+/usr/bin/iouyap: starting foreign listener
+/usr/bin/iouyap: --------------
+/usr/bin/iouyap: Configuring 517:1/2...
+/usr/bin/iouyap: starting foreign listener
+/usr/bin/iouyap: --------------
+/usr/bin/iouyap: Configuring 517:1/3...
+/usr/bin/iouyap: starting foreign listener
+/usr/bin/iouyap: --------------
+/usr/bin/iouyap: Starting IOU UDS listener
+/usr/bin/iouyap: Starting IOU UDP listener
+/usr/bin/iouyap: Main thread going to sleep
+/usr/bin/iouyap: Received signal 15
+/usr/bin/iouyap: Stopping listeners and cleaning up
+/usr/bin/iouyap: Exiting
